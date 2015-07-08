@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Róbert Toth. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "AppDelegate.h" // note
 #import "DetailViewController.h"
 
 @interface AppDelegate ()

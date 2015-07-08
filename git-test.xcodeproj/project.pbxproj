@@ -14,18 +14,7 @@
 		00341E2A1B4D59E300E5FD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00341E281B4D59E300E5FD70 /* Main.storyboard */; };
 		00341E2C1B4D59E300E5FD70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00341E2B1B4D59E300E5FD70 /* Images.xcassets */; };
 		00341E2F1B4D59E300E5FD70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00341E2D1B4D59E300E5FD70 /* LaunchScreen.xib */; };
-		00341E3B1B4D59E300E5FD70 /* git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00341E3A1B4D59E300E5FD70 /* git_testTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		00341E351B4D59E300E5FD70 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00341E101B4D59E300E5FD70 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 00341E171B4D59E300E5FD70;
-			remoteInfo = "git-test";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00341E181B4D59E300E5FD70 /* git-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,20 +29,10 @@
 		00341E291B4D59E300E5FD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00341E2B1B4D59E300E5FD70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		00341E2E1B4D59E300E5FD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		00341E341B4D59E300E5FD70 /* git-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00341E391B4D59E300E5FD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00341E3A1B4D59E300E5FD70 /* git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_testTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		00341E151B4D59E300E5FD70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		00341E311B4D59E300E5FD70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				00341E1A1B4D59E300E5FD70 /* git-test */,
-				00341E371B4D59E300E5FD70 /* git-testTests */,
 				00341E191B4D59E300E5FD70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				00341E181B4D59E300E5FD70 /* git-test.app */,
-				00341E341B4D59E300E5FD70 /* git-testTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,23 +84,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00341E371B4D59E300E5FD70 /* git-testTests */ = {
-			isa = PBXGroup;
-			children = (
-				00341E3A1B4D59E300E5FD70 /* git_testTests.m */,
-				00341E381B4D59E300E5FD70 /* Supporting Files */,
-			);
-			path = "git-testTests";
-			sourceTree = "<group>";
-		};
-		00341E381B4D59E300E5FD70 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00341E391B4D59E300E5FD70 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,24 +104,6 @@
 			productReference = 00341E181B4D59E300E5FD70 /* git-test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00341E331B4D59E300E5FD70 /* git-testTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00341E411B4D59E300E5FD70 /* Build configuration list for PBXNativeTarget "git-testTests" */;
-			buildPhases = (
-				00341E301B4D59E300E5FD70 /* Sources */,
-				00341E311B4D59E300E5FD70 /* Frameworks */,
-				00341E321B4D59E300E5FD70 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				00341E361B4D59E300E5FD70 /* PBXTargetDependency */,
-			);
-			name = "git-testTests";
-			productName = "git-testTests";
-			productReference = 00341E341B4D59E300E5FD70 /* git-testTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,10 +116,6 @@
 					00341E171B4D59E300E5FD70 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = HUF2Z7SGLU;
-					};
-					00341E331B4D59E300E5FD70 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 00341E171B4D59E300E5FD70;
 					};
 				};
 			};
@@ -195,7 +133,6 @@
 			projectRoot = "";
 			targets = (
 				00341E171B4D59E300E5FD70 /* git-test */,
-				00341E331B4D59E300E5FD70 /* git-testTests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,13 +145,6 @@
 				00341E2A1B4D59E300E5FD70 /* Main.storyboard in Resources */,
 				00341E2F1B4D59E300E5FD70 /* LaunchScreen.xib in Resources */,
 				00341E2C1B4D59E300E5FD70 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		00341E321B4D59E300E5FD70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,23 +162,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00341E301B4D59E300E5FD70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00341E3B1B4D59E300E5FD70 /* git_testTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00341E361B4D59E300E5FD70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 00341E171B4D59E300E5FD70 /* git-test */;
-			targetProxy = 00341E351B4D59E300E5FD70 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		00341E281B4D59E300E5FD70 /* Main.storyboard */ = {
@@ -374,40 +288,6 @@
 			};
 			name = Release;
 		};
-		00341E421B4D59E300E5FD70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "git-testTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/git-test.app/git-test";
-			};
-			name = Debug;
-		};
-		00341E431B4D59E300E5FD70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "git-testTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/git-test.app/git-test";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -425,14 +305,6 @@
 			buildConfigurations = (
 				00341E3F1B4D59E300E5FD70 /* Debug */,
 				00341E401B4D59E300E5FD70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		00341E411B4D59E300E5FD70 /* Build configuration list for PBXNativeTarget "git-testTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				00341E421B4D59E300E5FD70 /* Debug */,
-				00341E431B4D59E300E5FD70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
